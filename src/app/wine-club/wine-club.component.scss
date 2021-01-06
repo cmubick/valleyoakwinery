@@ -1,0 +1,48 @@
+.wine_club {
+  background-color: rgba(255, 255, 255, .9);
+  padding-bottom: 75px;
+  margin: 24px 32px;
+  text-align: left;
+  font-family: "pt-serif";
+
+  .wine-club-header {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0 8px 0;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .download {
+    padding: 16px;
+    text-align: center;
+
+    mat-icon {
+      color: black;
+    }
+  }
+
+  form {
+    padding: 32px;
+
+    .left_column {
+      .heading {
+        font-style: italic;
+        padding-bottom: 15px;
+      }
+
+      .option {
+        padding-bottom: 15px;
+
+        mat-checkbox {
+          font-weight: bold;
+          pointer-events: none;
+        }
+
+        .price {
+          padding: 5px 0 0 25px;
+        }
+      }
+    }
+  }
+}

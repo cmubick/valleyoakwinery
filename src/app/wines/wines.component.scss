@@ -1,0 +1,44 @@
+.wine-list {
+  background-color: white;
+  margin: 32px auto;
+  padding: 8px;
+  max-width: 800px;
+  @media (min-width: 768px) {
+    padding: 32px
+  }
+
+  img {
+    margin: 8px;
+  }
+
+  .wine {
+    padding: 16px 16px 40px 16px;
+
+    .wine-header {
+      display: flex;
+      justify-content: space-between;
+
+      .wine-title {
+        font-weight: 600;
+      }
+
+      .wine-sold-out {
+        font-weight: 600;
+      }
+
+      .wine-price {
+        font-weight: 600;
+      }
+    }
+
+    .wine-description {
+      font-style: italic;
+      text-align: left;
+    }
+  }
+
+  .wine-type-header {
+    font-size: 22px;
+    font-weight: 600;
+  }
+}

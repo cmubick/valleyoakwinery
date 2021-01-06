@@ -1,0 +1,38 @@
+.vow-footer {
+  width: 100%;
+  background-color: white;
+  border-top: 1px rgb(122, 55, 55) solid;
+
+  vow-map {
+    float: left;
+  }
+
+  .bottom-footer {
+    background-color: rgb(122, 55, 55);
+    color: white;
+
+    .social {
+      .social-link {
+        margin: 6px 32px;
+        float: right;
+      }
+    }
+
+    .copywrite {
+      text-align: left;
+      font-size: 80%;
+      .vow-copywrite {
+        float: left;
+        margin: 6px 32px;
+      }
+    }
+  }
+
+  .info {
+    padding-top: 60px;
+
+    p {
+      font-weight: 900;
+    }
+  }
+}

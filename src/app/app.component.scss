@@ -1,0 +1,53 @@
+.companyName{
+  font-size: 150%;
+}
+div {
+  overflow: inherit;
+}
+a{
+  text-decoration: none;
+  font-size: 80%;
+  white-space: normal;
+  font-family: "pt-serif";
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  background: transparent;
+}
+button{
+  font-size: 80%;
+  min-width: min-content;
+  font-family: "pt-serif";
+}
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-sidenav-content{
+    text-align: center;
+
+    .right-container {
+      vow-facebook-feed {
+        margin-right: 32px;
+      }
+    }
+}
+.mat-toolbar.mat-primary {
+  color: black;
+  height: 75px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.mat-drawer-container {
+  background: transparent;
+}
+mat-sidenav-container {
+  height: calc(100% - 75px) !important;
+  min-height: calc(100% - 75px) !important;
+}
